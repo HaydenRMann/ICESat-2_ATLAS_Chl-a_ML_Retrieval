@@ -13,16 +13,24 @@
 ## Abstract
 Phytoplankton are the foundation of marine food webs and the biological carbon pump. Validated algorithms have been developed for the retrieval of chlorophyll-a, a proxy for phytoplankton, from passive ocean remote sensing instruments, including NASA’s Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite’s Ocean Color Instrument (OCI). However, optical passive remote sensing sensors cannot observe the ocean over dark areas, because they rely on solar illumination. Thus, observational gaps exist during nighttime and within high-latitude regions during polar night. Conversely, active remote sensing instruments provide their own light source and measure the reflected signal, allowing them to function independently of illumination state. Although active lidars, including NASA’s ATLAS (Advanced Topographic Laser Altimeter System) aboard ICESat-2 (Ice, Cloud, and land Elevation Satellite), can operate within many passive remote sensing gaps, methods of chlorophyll-a retrieval from ATLAS have yet to be widely implemented. Here, the depth profiles of photons from ICESat-2 ATLAS observations are assessed at 1 km along-track resolution to extract depth percentiles, bin-depth ratios, and other depth-based statistics relevant to phytoplankton distributions. The engineered photon segment depth features were trained on PACE chlorophyll-a data using Random Forest Regression. The ATLAS chlorophyll-a estimation agrees with the PACE chlorophyll-a product (R2 = 0.78), suggesting ATLAS supports opportunities to mitigate PACE observational gaps where ATLAS matchups are available. The random forest estimation compresses the chlorophyll-a range, modestly overestimating low values and underestimating high values. The model is a regional proof of concept but omits geographic input variables, such as bathymetric depth and location, suggesting broader applicability of this approach to other regions. Future improvements should focus on refining photon cloud data processing, tuning feature engineering, and training on more globally-representative datasets. The agreement between ATLAS and PACE chlorophyll-a estimation encourages future investigation into advancing lidar chlorophyll-a retrieval to extend passive remote sensing observations of high latitude or nighttime ocean environments. 
 
-## About this template
+# Code Overview
 
-This template was generated as an example for how to format and upload project code to github. Remember that uploading your code can be an interative process - it doesn't have to be perfect the first time! First focus on getting your code online, then move onto progressively organizing the code. Once you reach the cleaning stage some things to look for include:
+## Scripts
+### *Runners + Min Plots*
+- 01_match_maker.ipynb
+- 02_RF_implementation.ipynb
+### *Auxilary Plots*
+- aux_Strip_plots.ipynb
+- aux_photoncloudplot.ipynb\
+### *Auxilary Fxs*
+- aux_fx_plot.py
+- aux_fx_process.py
 
-- Make sure each chunk of code has a comment or markdown explanation of what is happening in the code
-- Delete code that isn't ever used. It can be hard (emotionally), but it helps the code you are using be more useful.
-- Break your project code into a few different notebooks by analysis step and name them starting with a number. For example: `01_preprocessing.ipynb`, `02_timeseries_analysis.ipynb` and `03_visualization.ipynb`.
-- Keep seperate folders for code and figures
+## Ne_10m_land
+- ...
+  
+## environment.yml
+- All dependencies should be contained in here. Email H.M. if any are missing.
 
-To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
 
-Some notes:
-- If you are using satellite images as part of your analysis they may be too large to upload to github. In that case simply upload your code.
+## SARP26_FINAL_FIGS
