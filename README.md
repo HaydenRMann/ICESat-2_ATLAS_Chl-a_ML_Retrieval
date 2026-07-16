@@ -31,6 +31,6 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
   
 ## environment.yml
 - All dependencies should be contained in here. Email H.M. if any are missing.
-
+- *Code was run on python3.14 (no conda), so it was not initially configured using an environment.*
 
 ## SARP26_FINAL_FIGS
