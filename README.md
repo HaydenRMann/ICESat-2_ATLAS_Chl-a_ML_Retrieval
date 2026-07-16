@@ -1,6 +1,12 @@
 # Bridging Passive Remote Sensing Gaps: A novel machine learning approach to chlorophyll-a estimation using ICESat-2 ATL03 geolocated photon data trained using PACE OCI
 
-<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/> This project was completed during the 2026 [NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). For two weeks, I participated in NASA flight campaigns out of Ellington Field at Johnson Space Center in Houston, TX. I then relocated to the 'Ocean's West' group at San Diego State University in San Diego, CA, where I completed my independent research. I researched chlorophyll-a estimation using ICESat-2 ATLAS ATL03 geolocated photon data, by training it on PACE l2m chlorophyll-a product. The first step was to process and derive statistics from the raw photon data. Then, random forest regression was used to predict chlorophyll-a (R^2 = 0.78) on an offshore area spanning the Texas coastline.
+<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/> This project was completed during the 2026 [NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). For two weeks, I participated in NASA flight campaigns out of Ellington Field at Johnson Space Center in Houston, TX. I then relocated to the 'Ocean's West' group at San Diego State University in San Diego, CA, where I completed my independent research. I researched chlorophyll-a estimation using ICESat-2 ATLAS ATL03 geolocated photon data, by training it on PACE l2m chlorophyll-a product. The first step was to process and derive statistics from the raw photon data. Then, random forest regression was used to predict chlorophyll-a (R<sup>2</sup> = 0.78) trained on PACE observations on an offshore area spanning the Texas coastline. <br><br><br>
+
+**Code Author, Project Lead**: Hayden Mann (Bowdoin College '27)<br> 
+&emsp;&emsp;&emsp;- Code Contact: hmann@bowdoin.edu <br><br>
+**Graduate Mentor**: Dorothy Grimmer (Texas A&M University)<br> 
+**Faculty Advisor**: Dr. Henry Houskeeper (Woods Hole Oceanographic Institute)<br> 
+**Contributing Code**: Dr. Kelsey Bisson (NASA HQ)
 <br>
 
 
