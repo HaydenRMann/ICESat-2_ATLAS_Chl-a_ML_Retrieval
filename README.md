@@ -16,7 +16,7 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 # Code Overview
 ## Workflow Overview: details below
 1. Set aoi, time, and photon-input parameters in 01_match_maker.ipynb
-2. Run 01_match_maker.ipynb. Sliderule requests scales up quickly.
+2. Run 01_match_maker.ipynb. Sliderule requests scales up quickly. **All functions are called to the extensive _aux_fx_process.py_**
 3. Locate saved matchup point files.
 4. Run 02_RF_implementation.ipynb to train model.
 
@@ -76,12 +76,29 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 - Purpose is to plot a photon segment cloud example for SARP presentation.
 
 ### *Auxilary Fxs*
-#### aux_fx_plot.py
-#### aux_fx_process.py
 
+#### aux_fx_plot.py
+- Home to auxilary plotting functions
+  1. ATLAS single variable overlays
+  2. Scatter plot function <br>
+
+#### aux_fx_process.py
+- **Home to auxilary ATL03 and PACE processing functions**
+- **More Extensive Documentation in Code**
+  1. PACE: grid_data() (Caroll et al., 2025)
+  2. ATLAS: add_lon_lat()
+  3. ATLAS: get_photons()
+  4. ATLAS: water_mask()
+  5. ATLAS: water_surface_retrieval_and_binning
+  6. ATLAS: get_segment_vars(), get_segment_stats()
+  7. ATLAS/PACE: get_PACE_time_windows()
+  8. PACE: get_PACE_data()
+  9. PACE: get_gridded_chl()
+  10. ATLAS: get_segment_centers()
+  11. ATLAS: match_chl_to_segments() <br> <br>
 ## Ne_10m_land
 - https://www.arcgis.com/home/item.html?id=595533fecdb0472db4b4b8e3ca8d9e42#overview
-- Navigated to via USGS website. Referred to in Corcoran and Parrish (2021).
+- Navigated to via USGS website. Referred to in Corcoran and Parrish (2021). <br><br>
   
 ## environment.yml
 - All dependencies should be contained in here. Email H.M. if any are missing.
@@ -101,3 +118,6 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
   - Shean, D., Swinski, J.P., Ugarte, C., Lidwa, E., Smith, B., Sutterley, T., Henderson, S., and Neumann, T. (2026). Sliderule. doi:10.5281/zenodo.4660020
   - Published July 10, 2026
   - Used July 14, 2026
+- NASA Grid_data function:
+  - Carroll, I., Windle, A., Wang, G., Poulin, C., Foley, S., Gray, P., Holmes, E., Caplan, S., Allen, J., Gao, M., Danenhower, M., Chase, A., Aryal, K., Fu, G., Fasnacht, Z., Werdell, J., & Knowles, D. (2025). Tutorials using data produced by NASA's Ocean Biology Distributed Active Archive Center. Zenodo. doi:10.5281/zenodo.17642133
+
