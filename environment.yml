@@ -1,0 +1,23 @@
+name: icesat2-pace
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - contextily
+  - rasterio
+  - rioxarray
+  - scikit-learn
+  - python=3.11
+  - geopandas
+  - jupyter
+  - pandas
+  - shapely
+  - matplotlib
+  - numpy
+  - scipy
+  - seaborn
+  - joblib
+  - pyproj
+  - xarray
+  - pip
+prefix: /Users/hmann/ENTER/envs/icesat2-pace
