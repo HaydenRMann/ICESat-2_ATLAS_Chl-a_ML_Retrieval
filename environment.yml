@@ -20,4 +20,4 @@ dependencies:
   - pyproj
   - xarray
   - pip
-prefix: /Users/hmann/ENTER/envs/icesat2-pace
+  
