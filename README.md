@@ -1,4 +1,5 @@
-# Project Title
+# Bridging Passive Remote Sensing Gaps: A novel machine learning approach to chlorophyll-a estimation using ICESat-2 trained using PACE OCI
+
 <img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>Here you can put a brief description (approximately 2-3 sentence) of your time with the [NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). You might mention the year of your program or that you flew on a NASA aircraft. You could also mention which group you were in as well as your graduate or faculty mentors. All this text is optional, but it's a good way to orient someone that comes to your repository wondering what it is they are looking at. A one sentence plain language description of your project can also be a great benefit.
 
 
