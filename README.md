@@ -43,12 +43,27 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
        - Delete PACE data for this time window
        - Increment loop <br>
 
-- Variable overlay plot workflow
+- Variable overlay plot workflow (fx in _aux_fx_plot.py_)
   1. Open matchup data
   2. Select date of choice for plot
   3. Download PACE l2m chlorophyll-a data for that date
   4. Select variables for ploting; plot. <br><br>
+  
 #### 01_match_maker.ipynb
+- Processing workflow: Steps 3-6 based on workflow from Corcoran and Parrish (2021)
+  1. Install and imports
+  2. Import matchup points
+  3. Preliminary RF run on all features
+  4. Determine feature importance based on the first RF run
+  5. Create a correlation matrix of all features
+  6. Correlated feature trimming, mathematically
+  7. Compute trimmed feature correlation with chlorophyll
+  8. Final RF run on trimmed features
+- Plot workflow
+  1. PACE chl-a vs ATLAS chl-a scatter plot (toggle outlier removal for regression fit line)
+  2. Map PACE chl-a under ATLAS chl-a for a single date (toggle colormap / lidar track outline)
+  3. Variable scatter plots
+  4. Regional time series <br><br>
 
 ### *Auxilary Plots*
 #### aux_Strip_plots.ipynb
