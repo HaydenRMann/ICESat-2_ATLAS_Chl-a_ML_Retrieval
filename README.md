@@ -66,8 +66,15 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
   4. Regional time series <br><br>
 
 ### *Auxilary Plots*
+
 #### aux_Strip_plots.ipynb
-#### aux_photoncloudplot.ipynb\
+- Similar workflow to _01_match_maker.ipynb_, but just for one day
+- Plots a 3-part strip plot of ATLAS chl-a, PACE chl-a, and their percent error.
+
+#### aux_photoncloudplot.ipynb
+- Similar (preliminary version of) workflow to _01_match_maker.ipynb_, but for a small area offshore of NC
+- Purpose is to plot a photon segment cloud example for SARP presentation.
+
 ### *Auxilary Fxs*
 #### aux_fx_plot.py
 #### aux_fx_process.py
