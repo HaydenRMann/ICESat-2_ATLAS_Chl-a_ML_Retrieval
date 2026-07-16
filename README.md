@@ -27,7 +27,7 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 - aux_fx_process.py
 
 ## Ne_10m_land
-- https://www.arcgis.com/home/item.html?id=595533fecdb0472db4b4b8e3ca8d9e42#overview]:
+- https://www.arcgis.com/home/item.html?id=595533fecdb0472db4b4b8e3ca8d9e42#overview
 - Navigated to via USGS website. Referred to in Corcoran and Parrish (2021).
   
 ## environment.yml
