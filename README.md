@@ -16,7 +16,7 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 # Code Overview
 
 ## Scripts
-### *Runners + Min Plots*
+### *Runners + Main Plots*
 - 01_match_maker.ipynb
 - 02_RF_implementation.ipynb
 ### *Auxilary Plots*
