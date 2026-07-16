@@ -34,3 +34,10 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 - *Code was run on python3.14 (no conda), so it was not initially configured using an environment.*
 
 ## SARP26_FINAL_FIGS
+
+
+## References
+- Initial photon cloud processing + water surface retrieval (both updated by H.M.)
+  - Eidam E.F., Bisson, K., Wang, C., Walker, C., Gibbons, A. (2024). ICESat-2 and ocean particulates: A roadmap for calculating K<sub>d</sub>  from space-based lidar photon profiles. *Remote Sensing of Environment, 311*. doi:10.1016/j.rse.2024.114222
+- Workflow for Random Forest Regression feature trimming.
+  - Corcoran, F. and Parrish, C.E. (2021). Diffuse attenuation coefficient (K<sub>d</sub>) from ICESat-2 ATLAS spaceborne lidar using random-forest regression. _Photogrammetric Engineering and Remote Sensing, 87_(11). doi:10.14358/PERS.21-00013R2
