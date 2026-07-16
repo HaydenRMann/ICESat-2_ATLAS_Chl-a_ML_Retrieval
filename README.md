@@ -108,7 +108,6 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 - 21 figures used in my SARP presentation
 #### Examples:
 - <img width="3535" height="3538" alt="image" src="https://github.com/user-attachments/assets/41a8c0d8-9b5c-48ab-bf16-4074c13bf4cf" />
-- <img width="360" height="236" alt="image" src="https://github.com/user-attachments/assets/f2361e07-da32-434d-8b64-9462be9e5ad8" />
 - <img width="6954" height="5036" alt="image" src="https://github.com/user-attachments/assets/2df23e57-0dda-4ec8-867b-a8aa2ad71f94" />
 - <img width="1600" height="1159" alt="image" src="https://github.com/user-attachments/assets/af715b34-1a87-42e3-b3b9-13753240a4b5" />
 - <img width="6937" height="5036" alt="image" src="https://github.com/user-attachments/assets/7815f354-1a25-45fe-bab0-2ce87aecad6e" />
