@@ -42,3 +42,9 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
   - Eidam E.F., Bisson, K., Wang, C., Walker, C., Gibbons, A. (2024). ICESat-2 and ocean particulates: A roadmap for calculating K<sub>d</sub>  from space-based lidar photon profiles. *Remote Sensing of Environment, 311*. doi:10.1016/j.rse.2024.114222
 - Workflow for Random Forest Regression feature trimming.
   - Corcoran, F. and Parrish, C.E. (2021). Diffuse attenuation coefficient (K<sub>d</sub>) from ICESat-2 ATLAS spaceborne lidar using random-forest regression. _Photogrammetric Engineering and Remote Sensing, 87_(11). doi:10.14358/PERS.21-00013R2
+- Sliderule API JOSS Article
+  - Shean, D., Swinski, J.P., Smith, B., Sutterley, T., Henderson, S., Ugarte, C., Lidwa, E., and Neumann, T. (2023). SlideRule: Enabling rapid, scalable, open science for the NASA ICESat-2 mission and beyond. _The Journal of Open Source Software 8_(81). doi:10.21105/joss.04982
+- Sliderule versino used to prepare data products
+  - Shean, D., Swinski, J.P., Ugarte, C., Lidwa, E., Smith, B., Sutterley, T., Henderson, S., and Neumann, T. (2026). Sliderule. https://doi.org/10.5281/zenodo.4660020
+  - Published July 10, 2026
+  - Used July 14, 2026
