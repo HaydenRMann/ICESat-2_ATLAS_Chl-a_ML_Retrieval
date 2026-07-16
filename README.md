@@ -45,6 +45,6 @@ Phytoplankton are the foundation of marine food webs and the biological carbon p
 - Sliderule API JOSS Article
   - Shean, D., Swinski, J.P., Smith, B., Sutterley, T., Henderson, S., Ugarte, C., Lidwa, E., and Neumann, T. (2023). SlideRule: Enabling rapid, scalable, open science for the NASA ICESat-2 mission and beyond. _The Journal of Open Source Software 8_(81). doi:10.21105/joss.04982
 - Sliderule versino used to prepare data products
-  - Shean, D., Swinski, J.P., Ugarte, C., Lidwa, E., Smith, B., Sutterley, T., Henderson, S., and Neumann, T. (2026). Sliderule. https://doi.org/10.5281/zenodo.4660020
+  - Shean, D., Swinski, J.P., Ugarte, C., Lidwa, E., Smith, B., Sutterley, T., Henderson, S., and Neumann, T. (2026). Sliderule. doi:10.5281/zenodo.4660020
   - Published July 10, 2026
   - Used July 14, 2026
